@@ -15,78 +15,34 @@ body {
   margin: 0;
 }
 
-header {
+body{
+  background-color: white;
+ font-weight: normal;
+ margin: 0;
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: 1fr;
 }
 
-header h1 {
-  font-family: "Merriweather", serif;
-  font-size: 1.8rem;
-  font-style: italic;
-  font-weight: normal;
-}
-
-main {
-}
-
-main .divides {
+.divides {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  grid-gap: .75rem;
 }
 
-main .divides img {
- width: 100%;
- display: block;
-}
-
-main .first-txt {
-  font-family: "Merriweather", serif;
-  margin: 0;
-  grid-column: 1/2;
-  grid-row: 1;
-  align-self: end;
-  z-index: 1;
-}
-
-main .second-txt {
-  font-family: "Merriweather", serif;
-  margin: 0;
-  color: #fff;
-  font-size: 1.8rem;
-  grid-column: 1;
-  grid-row: 2;
-  z-index: 1;
-}
-
-main figure {
-}
-
-main figure img {
+.work1{
   width: 100%;
-  display: grid;
+  grid-column: 1/3;
+  position: relative;
 }
 
-main figure figcaption {
-  font-size: 1.8rem;
+.work2{
+  grid-row: 2;
 }
-
-main .description {
-  font-family: "Merriweather", serif;
-  font-size: 1.5rem;
-  list-style-type: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "header" "header" "header"
-  "header" "header" "header"
-  "sidebar" "footer" "main"
+.work3{
+    grid-row: 2;
 }
-
-main .description dt {
-  font-size: 1.5rem;
-}
-
-main .description dd {
-  font-size: 1.5rem;
+.work4{
+    grid-row: 2;
 }
