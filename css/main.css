@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+  background-color: white;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: white;
+  font-weight: normal;
+  margin: 0;
+}
+
+header {
+
+}
+
+header h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+}
+
+.first-text {
+  position: absolute;
+  bottom: 8px;
+  left: 16px; 
+
+}
+
+main {
+
+}
+
+main .divides {
+  display: grid;
+  grid-template column: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+main .divides img {
+ width: 100%;
+ display: block;
+}
+
+main .divides .first-txt {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  color: #fff;
+  font-size: 1.8rem;
+  text-shadow:
+  rgba(0, 0, 0, 0.8);
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;
+}
+
+main .divides .second-txt {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  color: #fff;
+  font-size: 1.8rem;
+  text-shadow:
+  rgba(0, 0, 0, 0.8);
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;
+}
+
+main figure {
+
+}
+
+main figure img {
+  width: 100%;
+}
+
+main figure figcaption {
+  font-size: 1.8rem;
+}
+
+main .description {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  list-style-type: none;
+  padding:
+  display:
+  gap: .75rem;
+}
+
+main .description dt {
+
+
+}
+
+main .description dd {
+  font-size: 1.5rem;
+}
