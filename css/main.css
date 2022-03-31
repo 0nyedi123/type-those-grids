@@ -32,7 +32,7 @@ body{
   grid-gap: .75rem;
   grid-auto-flow: dense;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
 }
 
 .work1{
@@ -40,6 +40,10 @@ body{
   grid-column: 1/3;
   position: relative;
   font-family: System;
+}
+
+.work1 > img {
+  grid-row: 1/2;
 }
 
 .frist-txt {
