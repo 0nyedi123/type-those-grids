@@ -16,7 +16,6 @@ body {
 }
 
 header {
-
 }
 
 header h1 {
@@ -26,7 +25,6 @@ header h1 {
 
 
 main {
-
 }
 
 main .divides {
@@ -44,7 +42,7 @@ main .first-txt {
   font-family: 'Merriweather', serif;
   margin: 0;
   grid-column: 1/2;
-  grid-row:  1;
+  grid-row: 1;
   align-self: end;
   z-index: 1;
 }
@@ -60,7 +58,6 @@ main .second-txt {
 }
 
 main figure {
-
 }
 
 main figure img {
@@ -86,8 +83,6 @@ main .description {
 }
 
 main .description dt {
-
-
 }
 
 main .description dd {
