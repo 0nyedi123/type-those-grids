@@ -24,14 +24,6 @@ header h1 {
   font-size: 1.8rem;
 }
 
-.startingpic{
-  position: relative;
-}
-
-.first-text {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
 
 }
 
@@ -50,18 +42,20 @@ main .divides img {
  display: block;
 }
 
-main .divides .first-txt {
+main .first-txt {
   font-family: 'Merriweather', serif;
-
+  margin: 0;
+  grid-column: 1/2;
+  grid-row:  1;
+  align-self: end;
+  z-index: 1;
 }
 
-main .divides .second-txt {
+main .second-txt {
   font-family: 'Merriweather', serif;
   margin: 0;
   color: #fff;
   font-size: 1.8rem;
-  text-shadow:
-  rgba(0, 0, 0, 0.8);
   grid-column: 1;
   grid-row: 2;
   z-index: 1;
