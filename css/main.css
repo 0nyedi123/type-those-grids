@@ -84,6 +84,14 @@ main figure figcaption {
 main .description {
   font-family: 'Merriweather', serif;
   font-size: 1.5rem;
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "header" "header" "header"
+  "header" "header" "header"
+  "sidebar" "footer" "main"
 }
 
 main .description dt {
