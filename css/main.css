@@ -25,15 +25,13 @@ header h1 {
 }
 
 
-}
-
 main {
 
 }
 
 main .divides {
   display: grid;
-  grid-template column: 1fr 1fr 1fr;
+  grid-template-columns: : 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
@@ -68,7 +66,6 @@ main figure {
 main figure img {
   width: 100%;
   display: grid;
-  grid-template-columns: (3, 1fr);
 }
 
 main figure figcaption {
