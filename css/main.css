@@ -43,8 +43,8 @@ body{
 }
 
 .frist-txt {
-  position: absolute;
-  bottom: 20px;
+  position: relative;
+  bottom: 45px;
   left: 20px;
   background-color: none;
   color: white;
