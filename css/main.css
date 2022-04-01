@@ -9,73 +9,75 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  background-color: white;
-  font-weight: normal;
-  margin: 0;
+header {
 }
 
-body{
-  background-color: white;
- font-weight: normal;
- margin: 0;
- display: grid;
- grid-template-columns: 1fr;
- grid-template-rows: 1fr;
- grid-auto-flow: dense;
+img {
+  width: 100%;
+  display: block;
 }
 
-.divides {
+h1 {
+
+}
+
+main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: .75rem;
-  grid-auto-flow: dense;
-  padding: 1.5rem;
-  margin: 1.5rem;
+  grid-template-rows: 1fr;
 }
 
-.work1{
+.banner img {
   width: 100%;
   grid-column: 1/3;
-  position: relative;
-  font-family: System;
+
 }
 
-.work1 > img {
-  grid-row: 1/2;
+.banner-text {
+  margin: 0;
+  grid-column: 1 / 2;
+  grid-row: 1;
+  align-self: end;
+  z-index: 1;
 }
 
-.frist-txt {
-  position: relative;
-  bottom: 45px;
-  left: 20px;
-  background-color: none;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  }
-
-  .second-txt {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: none;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-.work2{
-  grid-row: 2;
-  list-style-type: none;
-  padding: 0;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap:
+h2 {
+  margin: 0;
+  grid-column: 1 / 2;
+  grid-row: 1;
+  align-self: end;
+  z-index: 1;
 }
-.work3{
-    grid-row: 2;
+
+p {
+
 }
-.work4{
-    grid-row: 2;
+
+figure img {
+
+}
+
+
+figcaption {
+
+}
+
+
+h2 {
+
+}
+
+dl {
+margin: 0;
+display: grid;
+grid-template-columns:
+rep
+}
+
+dt {
+
+}
+
+dd {
+
 }
