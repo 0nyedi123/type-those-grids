@@ -39,6 +39,9 @@ main {
   position: absolute;
 }
 
+grid-template-areas:
+  "banner banner banner"
+  " figure figure figure";
 
 figure {
   grid-row: 2;
